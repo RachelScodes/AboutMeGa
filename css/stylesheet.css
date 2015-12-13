@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis|Indie+Flower)
+
 body {
     /* Typography Declarations */
     color: #5F4F47;
@@ -22,7 +24,7 @@ a:hover {
 }
 
 .header {
-  padding: 6em 0; 
+  padding: 6em 0;
   background-image: url('http://static.wixstatic.com/media/35f7d1_559881d2d2a649a2b3d1f68b85e95cae.png_srz_p_800_447_85_22_0.50_1.20_0.00_png_srz');
   background-repeat: no-repeat;
   background-size: cover;
@@ -82,7 +84,7 @@ a:hover {
   /*Typograhpy Declarations */
   font-family: "Indie Flower", Georgia, serif;
   font-size: 1.2em;
-  font-weight: bold; 
+  font-weight: bold;
   /* Layout */
   margin: 2em 0 1em 0;
 }
@@ -102,8 +104,8 @@ html {
 }
 .profile-pic {
   float: right;
-  background: url('https://secure.gravatar.com/avatar/67c3f3867992e742c87cf394ac42e8ce?size=200px'); 
-  background-position: center; 
+  background: url('https://secure.gravatar.com/avatar/67c3f3867992e742c87cf394ac42e8ce?size=200px');
+  background-position: center;
   background-overflow: crop;
   height: 180px;
   width: 200px;
@@ -116,7 +118,7 @@ html {
   }
 .profile-pic:hover{
   background: rgba(0,0,0,.5);
-  background-position: center; 
+  background-position: center;
   background-overflow: crop;
   height: 180px;
   width: 200px;
@@ -156,11 +158,11 @@ html {
 .content-footer a {
   color: white;
   text-decoration: none;
-} 
+}
 .content-footer a:visited {
   color: white;
   text-decoration: none;
-} 
+}
 .content-footer a:hover {
   text-decoration: underline;
 }
