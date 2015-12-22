@@ -2,65 +2,139 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Rachel Smyth</title>
+	<title>Rachel Smyth | Full Stack Web Developer</title>
 	<link href='http://fonts.googleapis.com/css?family=Dosis|Indie+Flower' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/stylesheet.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- <link rel="icon" type="image/png" href="images/favicon.ico"> -->
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/script.js"></script>
+
 </head>
 <body>
-<header class="header">
-  <p class="head-intro">Hi, I'm</p>
-  <h1 class="head-heading">Rachel.</h1>
-</header>
-<section class="intro-section">
-  <h1>Introduction</h1>
-  <p>I’m a Singer/Songwriter and tech enthusiast from New York City. I've been a touring musician for several years and would like to try something new... </p>
-  <p>Music is and always will be super important to me, and being a great musician requires a balance of both creative and analytical thinking. I'd like to leverage those skills into a career in full-stack development at a startup I am passionate about.</p>
-</section>
-<section class="location-section">
-  <h1>Where I'm From</h1>
-  <p>I’m a unicorn. Not with the horn and stuff, silly, but I'm actually from New York City. I grew up splitting time between Harlem and the LES, but I've lived in 4 of the 5 boroughs. I've also lived in Florence, Italy; Montreal, Quebec; and Los Angeles, CA. Plus I was on the road for almost three years, performing on 5 continents (North America, Europe, Asia, Africa, and Australia). I've been everywhere, man.</p>
-  <p>After all that globetrotting I'm currently back in my hometown: NYC.</p>
-</section>
-<section class="questions-section">
-  <h1>More About Me</h1>
-  <h2>What are your favorite hobbies?</h2>
-    <p>I love playing ukulele, cooking, dodgeball, poker, Doctor Who, Hello Kitty, and pictures of cute animals (especially my <a href="https://instagram.com/p/xZenNeFhDv/" target="_blank">adorable 16 year old dog</a>.) </p>
-    <p>I am also passionate about serving my community and have donated my time and talents to various charitable organizations through <a href="http://hfny.org" target="_blank">Hope For New York.</a> Sign up to volunteer (in the NYC area) <a href="http://hfny.org/volunteer/"
-    target="_blank">here.</a> I also volunteered with <a href="http://kidsareheroes.org/" target="_blank">Kids Are Heroes</a>, a non-profit that aids in education and networking for young entreprenuers and charity founders. <a href="https://www.youtube.com/watch?v=01EEL60dwkY&t=55s" target="blank">(Check me out in their sizzle reel!)</a>
-    <p>As I develop my skillset I'd like to lead workshops for children in underserved communties. Minority women are grossly underrepresented in STEM fields, especially computer science, and the best way to create bad-ass women is to start educating our bad-ass girls.</p>
-  <h2>What’s your dream job?</h2>
-    <p>By day I'd like to work for a music-related startup that helps my fellow artists, where I can let all my skills come home to roost: I can flex my full-stack dev muscles, my gift for customer service, my marketing saavy, and my music knowledge. By night, I’m still going to play shows! And hopefully be able to lead those coding workshops. And also fight crime...by picking up litter.</p>
-    <p>On a related note: I would like to build a functioning <a href="https://en.wikipedia.org/wiki/TARDIS" target="_blank">TARDIS</a>, thereby allowing me more hours in the day and the ability to be in three places at once.</p>
-  <h2>What’s your background?</h2>
-    <p>#5F4F47 aka Beige. (badum-ch!).</p>
-    <p>I'm a proud nuyorican, and I've been coding since I was 9 years old, singing since I was 4. Being a singer/songwriter has been my focus for the past 15 years; I also served as my own band and brand manager during that time.</p>
-  <h2>What music have you been listening to lately?</h2>
-    <p>Well I do have a kick-ass EP <a href="http://rachelzevita.bandcamp.com" target="_blank">("The Echo Sessions")</a> that you can listen to on <a href="http://rachelzevita.bandcamp.com" target="_blank">bandcamp...</a> and there's a music video hidden on this site!</p>
-</section>
-<footer class="content-footer">
-  <h1>Contact Me:</h1>
-  <a href="https://youtu.be/Ui7YF7cdLwY" target="_blank">
-    <div class="profile-pic">You found a video!</div>
-  </a>
-  <p>learn more:</p>
-  <ul class="links">
-	 <li><a href="https://www.github.com/RachelScodes" target="_blank">.github</a></li>
-	 <li><a href="https://www.linkedin.com/in/RachelScodes" target="_blank">.linkedin</a></li>
-    <li><a href="https://www.twitter.com/RachelScodes" target="_blank">.twitter</a></li>
-    <li><a href="http://rachelzevita.bandcamp.com" target="_blank">.bandcamp</a></li>
-    <li><a href="https://github.com/RachelScodes/AboutMeGa" target=_blank>view source</a>
-  </ul>
+	<main>
+	<div id="fullpage">
+		<div class="section">
+			<!-- <div class="raise"> -->
+				<p class="head-intro">Hi, I'm</p>
+				<h1 class="head-heading">Rachel.</h1>
+			<!-- </div> -->
+		</div>
 
-  <ul class="contact">
-    <li>Email:
-      <br>RachelS.codes [at] gmail[dot]com </li>
-    <br>
-    <li>Phone:
-      <br>[redacted]</li>
-  </ul>
-  <div class="acknowledgements"> Cover photography by:
-    <a href="http://www.yuliayurasova.com/untitled-gallery" target="_blank">YuliaYurasova</a>
-    <br>View source <a href="https://github.com/RachelScodes/AboutMeGa" target=_blank>on github</a></div>
-	</footer>
+		<div id="about" class="section">
+			<div id="intro-section" class="slide">
+				<h1>Introduction</h1>
+				<p>I’m a Singer/Songwriter and tech enthusiast from New York City. I've been a touring musician for several years and would like to try something new... </p>
+				<p>Music is and always will be super important to me, and being a great musician requires a balance of both creative and analytical thinking. I'd like to leverage those skills into a career in full-stack development at a startup I am passionate about.</p>
+			</div>
+
+			<div id="location-section" class="slide">
+				<h1>Where I'm From</h1>
+				<p>I’m a unicorn. Not with the horn and stuff, silly, but I'm actually from New York City. I grew up splitting time between Harlem and the LES, but I've lived in 4 of the 5 boroughs. I've also lived in Florence, Italy; Montreal, Quebec; and Los Angeles, CA. Plus I was on the road for almost three years, performing on 5 continents (North America, Europe, Asia, Africa, and Australia). I've been everywhere, man.</p>
+				<p>After all that globetrotting I'm currently back in my hometown: NYC.</p>
+			</div>
+
+			<div id="questions-section" class="slide">
+				<h1>More About Me</h1>
+				<h2>What are your favorite hobbies?</h2>
+				<p>I love playing ukulele, cooking, dodgeball, poker, Doctor Who, Hello Kitty, and pictures of cute animals (especially my <a href="https://instagram.com/p/xZenNeFhDv/" target="_blank">adorable 16 year old dog</a>.) </p>
+				<p>I am also passionate about serving my community and have donated my time and talents to various charitable organizations through <a href="http://hfny.org" target="_blank">Hope For New York.</a> Sign up to volunteer (in the NYC area) <a href="http://hfny.org/volunteer/"
+				target="_blank">here.</a> I also volunteered with <a href="http://kidsareheroes.org/" target="_blank">Kids Are Heroes</a>, a non-profit that aids in education and networking for young entreprenuers and charity founders. <a href="https://www.youtube.com/watch?v=01EEL60dwkY&t=55s" target="blank">(Check me out in their sizzle reel!)</a>
+				<p>As I develop my skillset I'd like to lead workshops for children in underserved communties. Minority women are grossly underrepresented in STEM fields, especially computer science, and the best way to create bad-ass women is to start educating our bad-ass girls.</p>
+				<h2>What’s your dream job?</h2>
+				<p>By day I'd like to work for a music-related startup that helps my fellow artists, where I can let all my skills come home to roost: I can flex my full-stack dev muscles, my gift for customer service, my marketing saavy, and my music knowledge. By night, I’m still going to play shows! And hopefully be able to lead those coding workshops. And also fight crime...by picking up litter.</p>
+				<p>On a related note: I would like to build a functioning <a href="https://en.wikipedia.org/wiki/TARDIS" target="_blank">TARDIS</a>, thereby allowing me more hours in the day and the ability to be in three places at once.</p>
+				<h2>What’s your background?</h2>
+				<p>#5F4F47 aka Beige. (badum-ch!).</p>
+				<p>I'm a proud nuyorican, and I've been coding since I was 9 years old, singing since I was 4. Being a singer/songwriter has been my focus for the past 15 years; I also served as my own band and brand manager during that time.</p>
+				<h2>What music have you been listening to lately?</h2>
+				<p>Well I do have a kick-ass EP <a href="http://rachelzevita.bandcamp.com" target="_blank">("The Echo Sessions")</a> that you can listen to on <a href="http://rachelzevita.bandcamp.com" target="_blank">bandcamp...</a> and there's a music video hidden on this site!</p>
+			</div>
+	 	</div>
+		<div id="port" class="section">
+		      <div class="slide port">
+					<img class="pic" src="pics/ptwfm.gif">
+		         <div class="info">
+						<a class="info" href="http://plan-this-wedding-for-me.herokuapp.com" target="_blank">
+							<h2>PlanThisWeddingFor.me</h2>
+						</a>
+		            <p>Elevator pitch
+						   <br/>Detail<br/>
+		            	<span class="tech">
+								JavaScript, jQuery, CSS, MongoDb, Node/Express, npm modules
+							</span>
+		            </p>
+		         </div>
+				</div>
+				<div class="slide port">
+					<img class="pic" src="pics/battle-royale.gif">
+					<div class="info">
+						<a class="info" href="http://mar-battle-royale.herokuapp.com" target="_blank">
+							<h2>Battle Royale: Not your mother's trivia app</h2>
+						</a>
+		            <p>Elevator pitch
+						   <br/>Detail<br/>
+		            	<span class="tech">
+								JavaScript, jQuery, CSS, MongoDb, Node/Express, npm modules
+							</span>
+		            </p>
+		         </div>
+				</div>
+				<div class="slide port">
+					<img class="pic" src="pics/gun-violence.gif">
+					<div class="info">
+						<a class="info" href="http://mar-battle-royale.herokuapp.com" target="_blank">
+							<h2>Battle Royale: Not your mother's trivia app</h2>
+						</a>
+		            <p>Elevator pitch
+						   <br/>Detail<br/>
+		            	<span class="tech">
+								JavaScript, jQuery, CSS, MongoDb, Node/Express, npm modules
+							</span>
+		            </p>
+		         </div>
+				</div>
+		</div>
+		<div id="charity" class="section">
+			<img src="images/charity.png" id="charity-pic">
+	      <p id="char-name">Cause Name! <br/><br/>Years of involvement</p>
+	      <p>Cause detail</p>
+	      <p>charities:<br/> name, name, name</p>
+	      <br/>
+		</div>
+		<div id="contact" class="section">
+			<h1>Contact Me:</h1>
+			<!-- <a href="https://youtu.be/Ui7YF7cdLwY" target="_blank"> -->
+				<div class="profile-pic">
+					<!-- You found a video! -->
+				</div>
+			<!-- </a> -->
+			<p>learn more:</p>
+			<ul class="links">
+				<li><a href="https://www.github.com/RachelScodes" target="_blank">.github</a></li>
+				<li><a href="https://www.linkedin.com/in/RachelScodes" target="_blank">.linkedin</a></li>
+				<li><a href="https://www.twitter.com/RachelScodes" target="_blank">.twitter</a></li>
+				<li><a href="http://rachelzevita.bandcamp.com" target="_blank">.bandcamp</a></li>
+				<li><a href="https://github.com/RachelScodes/AboutMeGa" target=_blank>view source</a>
+			</ul>
+
+			<ul class="info">
+				<li>Email:
+				<br>RachelS.codes [at] gmail[dot]com </li>
+				<br>
+				<li>Phone:
+				<br>[redacted]</li>
+			</ul>
+
+			<div class="acknowledgements"> Cover photography by:
+				<a href="http://www.yuliayurasova.com/untitled-gallery" target="_blank">YuliaYurasova</a>
+				<br>View source <a href="https://github.com/RachelScodes/AboutMeGa" target=_blank>on github</a>
+			</div>
+		</div>
+	</div>
+</main>
 </body>
 </html>
