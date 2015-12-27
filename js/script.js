@@ -2,7 +2,7 @@ if ($(window).width() > 1000) {
    $(function () {
 
       $('#fullpage').fullpage({
-         anchors:['main', 'about', 'port', 'charity', 'contact'],
+         anchors:['main', 'about', 'port', 'codepen', 'charity', 'contact'],
          navigation: true,
          navigationPosition: 'right',
       });
